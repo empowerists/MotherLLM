@@ -12,7 +12,9 @@ concurrency:
 
 on:
   push:
-    branches: ['master'] # master branch only. Do not modify.
+    branches:
+      - master
+      - dev
     paths-ignore:
       - '**.md'
       - 'cloud-deployments/**/*'
